@@ -73,3 +73,43 @@ body{
     height: 350px;
     width: 550px;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#info-container{
+    display: flex;
+    width: 100%;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.info-image{
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    height: 300px;
+    width: 200px;
+}
+
+.info-subtext{
+    margin: 0;
+    width: 200px;
+    padding: 10px 0;
+}
