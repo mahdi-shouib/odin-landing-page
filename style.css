@@ -113,3 +113,22 @@ body{
     width: 200px;
     padding: 10px 0;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 25%;
+    text-align: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote-author{
+    text-align: end;
+}
